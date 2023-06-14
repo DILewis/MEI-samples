@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Ah, vous dirai-je Maman – Variation 1</title>
+            <respStmt>
+               <persName role="encoder" auth.uri="https://orcid.org/0000-0003-4151-0499">David Lewis</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt/>
+      </fileDesc>
+      <encodingDesc xml:id="e2j5x0m2">
+         <appInfo xml:id="aaisqxs1">
+            <application xml:id="acewhxb1" startdate="2023-06-14T11:07:22" version="0.8.7-p" enddate="2023-06-14T12:24:39">
+               <name xml:id="n9s9q82">mei-friend</name>
+               <p xml:id="p0llsnp2">Created using mei-friend 0.8.7-p, using a skeleton MEI file derived from Stephan Münnich's teaching materials.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mg5gsxq">
+            <score xml:id="s748g63">
+               <scoreDef xml:id="s3be311" meter.count="2" meter.unit="4">
+                  <staffGrp xml:id="grand-stave" bar.thru="true" symbol="brace">
+                     <staffDef xml:id="right-hand" n="1" lines="5" clef.shape="G" clef.line="2"/>
+                     <staffDef xml:id="left-hand" n="2" lines="5" clef.shape="F" clef.line="4"/>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1wgnyq">
+                  <measure n="1" xml:id="m3sfhmj2">
+                     <staff n="1" xml:id="str49mo2">
+                        <layer n="1" xml:id="lfq3vvg1">
+                           <beam xml:id="buxdzkh1">
+	                           <note oct="5" pname="d" dur="16" xml:id="ndy99rd1"/>
+   	                        <note oct="5" pname="c" dur="16" xml:id="nyrmhd01"/>
+      	                     <note oct="4" pname="b" dur="16" xml:id="ndvfqwz1"/>
+         	                  <note oct="5" pname="c" dur="16" xml:id="nsm7qxu1"/>
+                           </beam>
+                           <beam xml:id="b5cz6y61">
+      	                     <note oct="4" pname="b" dur="16" xml:id="nh0me16"/>
+         	                  <note oct="5" pname="c" dur="16" xml:id="n8zkfa51"/>
+      	                     <note oct="4" pname="b" dur="16" xml:id="n0fwdpt2"/>
+         	                  <note oct="5" pname="c" dur="16" xml:id="nk9x0111"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2" xml:id="swrikfa1">
+                        <layer n="1" xml:id="lqxquv91">
+                           <note oct="3" pname="c" dur="4" xml:id="nq5zycb"/>
+                           <note oct="4" pname="c" dur="4" xml:id="nq9s8el2"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="2" xml:id="m6k71j7">
+                     <staff n="1" xml:id="stzvrzc1">
+                        <layer n="1" xml:id="l0q0umm2">
+                           <beam xml:id="b8gfzyh1">
+	                           <note oct="5" pname="a" dur="16" xml:id="n5x2w3s1"/>
+   	                        <note oct="5" pname="g" dur="16" xml:id="na1tqx91"/>
+      	                     <note oct="5" pname="f" accid="s" dur="16" xml:id="n10skk9"/>
+         	                  <note oct="5" pname="g" dur="16" xml:id="ncq8fya"/>
+                           </beam>
+                           <beam xml:id="b89zh7j2">
+      	                     <note oct="5" pname="f" accid.ges="s" dur="16" xml:id="n93l6ce1"/>
+         	                  <note oct="5" pname="g" dur="16" xml:id="nrs1pwd1"/>
+      	                     <note oct="5" pname="f" accid.ges="s" dur="16" xml:id="ngpjmlp1"/>
+         	                  <note oct="5" pname="g" dur="16" xml:id="nmy0ntj1"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2" xml:id="sth4prs2">
+                        <layer n="1" xml:id="ljksf7o2">
+                           <note oct="4" pname="e" dur="4" xml:id="nnrp7j11"/>
+                           <note oct="4" pname="c" dur="4" xml:id="nfynno91"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="3" xml:id="mekm7ky2">
+                     <staff n="1" xml:id="sfv6oxx2">
+                        <layer n="1" xml:id="ld0so351">
+                           <beam xml:id="b566aex1">
+	                           <note oct="5" pname="g" accid="s" dur="16" xml:id="nwd7o68"/>
+   	                        <note oct="5" pname="a" dur="16" xml:id="n3b50m11"/>
+      	                     <note oct="6" pname="c" dur="16" xml:id="nkurh2j1"/>
+         	                  <note oct="5" pname="b" dur="16" xml:id="nzadz5m1"/>
+                           </beam>
+                           <beam xml:id="bw7aje2">
+      	                     <note oct="6" pname="d" dur="16" xml:id="nrjvxag1"/>
+         	                  <note oct="6" pname="c" dur="16" xml:id="ndapk091"/>
+      	                     <note oct="5" pname="b" dur="16" xml:id="nni6ijc"/>
+         	                  <note oct="5" pname="a" dur="16" xml:id="njdr7iu2"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2" xml:id="s7i226t2">
+                        <layer n="1" xml:id="lrxwd2">
+                           <note oct="4" pname="f" dur="4" xml:id="nf0lvc1"/>
+                           <note oct="4" pname="c" dur="4" xml:id="n49mygi2"/>
+                        </layer>
+                     </staff>
+                     <slur startid="nq9s8el2" endid="n49mygi2" xml:id="s46padl2"/>
+                  </measure>
+                  <measure n="4" xml:id="mkcn5p4">
+                     <staff n="1" xml:id="s3icr1a1">
+                        <layer n="1" xml:id="l02l3q01">
+                           <beam xml:id="bmncv0r1">
+	                           <note oct="5" pname="a" dur="16" xml:id="nnhvzt61"/>
+   	                        <note oct="5" pname="g" accid="n" dur="16" xml:id="nk6atuj1"/>
+      	                     <note oct="6" pname="e" dur="16" xml:id="n9foc6m2"/>
+         	                  <note oct="6" pname="d" dur="16" xml:id="njn10ss1"/>
+                           </beam>
+                           <beam xml:id="bpspcy91">
+      	                     <note oct="6" pname="c" dur="16" xml:id="nxknalb1"/>
+         	                  <note oct="5" pname="b" dur="16" xml:id="no9b5b5"/>
+      	                     <note oct="5" pname="a" dur="16" xml:id="nhl0mya"/>
+         	                  <note oct="5" pname="g" dur="16" xml:id="nep8npa1"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2" xml:id="skq8yph1">
+                        <layer n="1" xml:id="lalwm0d">
+                           <chord xml:id="cwi9cvb">
+                           	<note oct="4" pname="c" dur="4" xml:id="nsyxxqm1"/>
+                           	<note oct="4" pname="e" dur="4" xml:id="ntzm1rb1"/>
+                           </chord>
+                           <rest dur="8" dots="1" xml:id="rssydsg1"/>
+                           <note oct="4" pname="c" dur="16" xml:id="n0ckdjd"/>
+                        </layer>
+                     </staff>
+                     <slur startid="nnhvzt61" endid="nk6atuj1"/>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
