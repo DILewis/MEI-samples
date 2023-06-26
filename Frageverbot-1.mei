@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Frageverbot</title>
+            </titleStmt>
+            <pubStmt/>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application isodate="2017-02-16T16:12:44" version="0.9.13-687a7bc">
+                    <name>Verovio</name>
+                    <p>Transcoded from MusicXML</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv>
+                <score>
+                    <scoreDef xml:id="scoredef-000000140373846">
+                        <staffGrp xml:id="m-000000156626888">
+                            <staffDef xml:id="staffdef-000000174737919" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.sig="4f" meter.count="4" meter.unit="4" n="1" lines="5"/>
+                            <staffGrp xml:id="m-000000013086851">
+                                <staffGrp xml:id="m-000000013121225" symbol="brace" bar.thru="true">
+                                    <staffDef xml:id="staffdef-000000017486371" clef.shape="G" clef.line="2" key.sig="4f" meter.count="4" meter.unit="4" n="2" lines="5"/>
+                                    <staffDef xml:id="staffdef-000000211709495" clef.shape="G" clef.line="2" key.sig="4f" meter.count="4" meter.unit="4" n="3" lines="5"/>
+                                </staffGrp>
+                            </staffGrp>
+                        </staffGrp>
+                    </scoreDef>
+                    <section xml:id="section-000000036451460">
+                        <measure xml:id="vocal-score-F1-measure-3" n="777">
+                            <staff xml:id="vocal-score-F1-staff-3-1" n="1">
+                                <layer xml:id="vocal-score-F1-layer-3-1-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-3-1-1-1" dur="2" oct="4" pname="e" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000019796363" n="1">
+                                            <syl xml:id="syl-000000092072180">Nie</syl>
+                                        </verse>
+                                        <artic xml:id="artic-000000161245050" artic="acc"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-3-1-1-2" dur="8" oct="3" pname="a" accid.ges="f" stem.dir="up">
+                                        <verse xml:id="verse-000000102159228" n="1">
+                                            <syl xml:id="syl-000000197458217">sollst</syl>
+                                        </verse>
+                                        <artic xml:id="artic-000000126542003" artic="acc"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-3-1-1-3" dur="8" oct="3" pname="b" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000022237183" n="1">
+                                            <syl xml:id="syl-000000003396235">du</syl>
+                                        </verse>
+                                        <artic xml:id="artic-000000156438567" artic="acc"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-3-1-1-4" dots="1" dur="8" oct="4" pname="c" stem.dir="down">
+                                        <accid xml:id="accid-000000118702927" accid="f"/>
+                                        <verse xml:id="verse-000000213543306" n="1">
+                                            <syl xml:id="syl-000000015213072">mich</syl>
+                                        </verse>
+                                        <artic xml:id="artic-000000007151260" artic="acc"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-3-1-1-5" dur="16" oct="4" pname="e" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000079399872" n="1">
+                                            <syl xml:id="syl-000000083428228" con="d" wordpos="i">be</syl>
+                                        </verse>
+                                        <artic xml:id="artic-000000160577720" artic="acc"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-3-2" n="2">
+                                <layer xml:id="vocal-score-F1-layer-3-2-1" n="1">
+                                    <mRest xml:id="mrest-000000171251570"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-3-3" n="3">
+                                <layer xml:id="vocal-score-F1-layer-3-3-5" n="5">
+                                    <chord xml:id="vocal-score-F1-chord-3-3-5-1" dur="1">
+                                        <note xml:id="vocal-score-F1-note-3-3-5-1" oct="4" pname="a" accid.ges="f"/>
+                                        <note xml:id="vocal-score-F1-note-3-3-5-2" oct="5" pname="c">
+                                            <accid xml:id="accid-000000018479659" accid="f"/>
+                                        </note>
+                                    </chord>
+                                </layer>
+                            </staff>
+                            <tempo xml:id="dir-000000136934960" place="above" staff="1" startid="#vocal-score-F1-note-3-1-1-1">(sehr langsam)</tempo>
+                            <dir xml:id="dir-1-1" place="above" staff="1" tstamp="0.5" type="cast">Lohengrin</dir>
+                            <dynam xml:id="dynam-000000035993025" place="above" staff="3" startid="#vocal-score-F1-chord-3-3-5-1">p</dynam>
+                        </measure>
+                        <measure xml:id="vocal-score-F1-measure-4" n="778">
+                            <staff xml:id="vocal-score-F1-staff-4-1" n="1">
+                                <layer xml:id="vocal-score-F1-layer-4-1-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-4-1-1-1" dur="2" oct="4" pname="e" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000174149689" n="1">
+                                            <syl xml:id="syl-000000018396144" con="d" wordpos="m">fra</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-4-1-1-2" dur="4" oct="3" pname="a" accid.ges="f" stem.dir="up">
+                                        <verse xml:id="verse-000000089320274" n="1">
+                                            <syl xml:id="syl-000000052482097" wordpos="t">gen,</syl>
+                                        </verse>
+                                    </note>
+                                    <rest xml:id="vocal-score-F1-rest-4-1-1-3" dur="4"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-4-2" n="2">
+                                <layer xml:id="vocal-score-F1-layer-4-2-1" n="1">
+                                    <chord xml:id="vocal-score-F1-chord-4-2-1-1" dots="1" dur="2" stem.dir="down">
+                                        <note xml:id="vocal-score-F1-note-4-2-1-1" oct="5" pname="e" accid.ges="f"/>
+                                        <note xml:id="vocal-score-F1-note-4-2-1-2" oct="6" pname="e" accid.ges="f"/>
+                                    </chord>
+                                    <rest xml:id="vocal-score-F1-rest-4-2-1-3" dur="4"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-4-3" n="3">
+                                <layer xml:id="vocal-score-F1-layer-4-3-5" n="5">
+                                    <chord xml:id="vocal-score-F1-chord-4-3-5-1" dur="1">
+                                        <artic xml:id="artic-000000118167710" artic="acc"/>
+                                        <note xml:id="vocal-score-F1-note-4-3-5-1" oct="4" pname="a" accid.ges="f"/>
+                                        <note xml:id="vocal-score-F1-note-4-3-5-2" oct="5" pname="c">
+                                            <accid xml:id="accid-000000154322851" accid="f"/>
+                                        </note>
+                                    </chord>
+                                </layer>
+                                <layer xml:id="vocal-score-F1-layer-4-3-6" n="6">
+                                    <note xml:id="vocal-score-F1-note-4-3-6-1" dots="1" dur="2" oct="4" pname="e" accid.ges="f" stem.dir="down"/>
+                                    <rest xml:id="vocal-score-F1-rest-4-3-6-2" dur="4"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="vocal-score-F1-measure-5" n="779">
+                            <staff xml:id="vocal-score-F1-staff-5-1" n="1">
+                                <layer xml:id="vocal-score-F1-layer-5-1-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-5-1-1-1" dur="2" oct="4" pname="e" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000207115199" n="1">
+                                            <syl xml:id="syl-000000191708303">noch</syl>
+                                        </verse>
+                                        <artic xml:id="artic-000000030579495" artic="acc"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-5-1-1-2" dur="8" oct="3" pname="a" accid.ges="f" stem.dir="up">
+                                        <verse xml:id="verse-000000122307580" n="1">
+                                            <syl xml:id="syl-000000187540800" con="d" wordpos="i">Wis</syl>
+                                        </verse>
+                                        <artic xml:id="artic-000000164030253" artic="acc"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-5-1-1-3" dur="8" oct="3" pname="b" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000187420338" n="1">
+                                            <syl xml:id="syl-000000101657578" wordpos="t">sens</syl>
+                                        </verse>
+                                        <artic xml:id="artic-000000127081138" artic="acc"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-5-1-1-4" dots="1" dur="8" oct="4" pname="c" stem.dir="down">
+                                        <accid xml:id="accid-000000045339732" accid="f"/>
+                                        <verse xml:id="verse-000000176878106" n="1">
+                                            <syl xml:id="syl-000000099463803" con="d" wordpos="i">Sor</syl>
+                                        </verse>
+                                        <artic xml:id="artic-000000195520284" artic="acc"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-5-1-1-5" dur="16" oct="4" pname="e" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000053359747" n="1">
+                                            <syl xml:id="syl-000000034039038" wordpos="t">ge</syl>
+                                        </verse>
+                                        <artic xml:id="artic-000000074269877" artic="acc"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-5-2" n="2">
+                                <layer xml:id="vocal-score-F1-layer-5-2-1" n="1">
+                                    <mRest xml:id="mrest-000000070730605"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-5-3" n="3">
+                                <layer xml:id="vocal-score-F1-layer-5-3-5" n="5">
+                                    <chord xml:id="vocal-score-F1-chord-5-3-5-1" dur="1">
+                                        <note xml:id="vocal-score-F1-note-5-3-5-1" oct="4" pname="a" accid.ges="f"/>
+                                        <note xml:id="vocal-score-F1-note-5-3-5-2" oct="5" pname="c">
+                                            <accid xml:id="accid-000000044959977" accid="f"/>
+                                        </note>
+                                    </chord>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="vocal-score-F1-measure-6" n="780">
+                            <staff xml:id="vocal-score-F1-staff-6-1" n="1">
+                                <layer xml:id="vocal-score-F1-layer-6-1-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-6-1-1-1" dur="2" oct="4" pname="e" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000064488622" n="1">
+                                            <syl xml:id="syl-000000171630679" con="d" wordpos="i">tra</syl>
+                                        </verse>
+                                        <artic xml:id="artic-000000125702404" artic="acc"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-6-1-1-2" dur="4" oct="3" pname="a" accid.ges="f" stem.dir="up">
+                                        <verse xml:id="verse-000000039846137" n="1">
+                                            <syl xml:id="syl-000000060450870" wordpos="t">gen,</syl>
+                                        </verse>
+                                    </note>
+                                    <rest xml:id="vocal-score-F1-rest-6-1-1-3" dots="1" dur="8"/>
+                                    <note xml:id="vocal-score-F1-note-6-1-1-4" dur="16" oct="3" pname="a" accid.ges="f" stem.dir="up">
+                                        <verse xml:id="verse-000000125720607" n="1">
+                                            <syl xml:id="syl-000000052692665" con="d" wordpos="i">wo</syl>
+                                        </verse>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-6-2" n="2">
+                                <layer xml:id="vocal-score-F1-layer-6-2-1" n="1">
+                                    <chord xml:id="vocal-score-F1-chord-6-2-1-1" dots="1" dur="2" stem.dir="down">
+                                        <note xml:id="vocal-score-F1-note-6-2-1-1" oct="5" pname="e" accid.ges="f"/>
+                                        <note xml:id="vocal-score-F1-note-6-2-1-2" oct="6" pname="e" accid.ges="f"/>
+                                    </chord>
+                                    <rest xml:id="vocal-score-F1-rest-6-2-1-3" dur="4"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-6-3" n="3">
+                                <layer xml:id="vocal-score-F1-layer-6-3-5" n="5">
+                                    <chord xml:id="vocal-score-F1-chord-6-3-5-1" dur="1">
+                                        <artic xml:id="artic-000000075578918" artic="acc"/>
+                                        <note xml:id="vocal-score-F1-note-6-3-5-1" oct="4" pname="a" accid.ges="f"/>
+                                        <note xml:id="vocal-score-F1-note-6-3-5-2" oct="5" pname="c">
+                                            <accid xml:id="accid-000000167907626" accid="f"/>
+                                        </note>
+                                    </chord>
+                                </layer>
+                                <layer xml:id="vocal-score-F1-layer-6-3-6" n="6">
+                                    <note xml:id="vocal-score-F1-note-6-3-6-1" dots="1" dur="2" oct="4" pname="e" accid.ges="f" stem.dir="down"/>
+                                    <rest xml:id="vocal-score-F1-rest-6-3-6-2" dur="4"/>
+                                </layer>
+                            </staff>
+                            <dynam xml:id="dynam-000000136970738" place="above" staff="1" startid="#vocal-score-F1-note-6-1-1-4">p</dynam>
+                        </measure>
+                        <measure xml:id="vocal-score-F1-measure-7" n="781">
+                            <staff xml:id="vocal-score-F1-staff-7-1" n="1">
+                                <layer xml:id="vocal-score-F1-layer-7-1-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-7-1-1-1" dots="2" dur="4" oct="4" pname="c" stem.dir="down">
+                                        <accid xml:id="accid-000000148481574" accid="f"/>
+                                        <verse xml:id="verse-000000094457984" n="1">
+                                            <syl xml:id="syl-000000195888169" wordpos="t">her</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-7-1-1-2" dur="16" oct="4" pname="c" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000035229549" n="1">
+                                            <syl xml:id="syl-000000205966037">ich</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-7-1-1-3" dots="2" dur="4" oct="4" pname="f" stem.dir="down">
+                                        <accid xml:id="accid-000000060406091" accid="f"/>
+                                        <verse xml:id="verse-000000044453476" n="1">
+                                            <syl xml:id="syl-000000202647087">kam</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-7-1-1-4" dur="16" oct="4" pname="g" stem.dir="down">
+                                        <accid xml:id="accid-000000045200987" accid="f"/>
+                                        <verse xml:id="verse-000000166158180" n="1">
+                                            <syl xml:id="syl-000000079952365">der</syl>
+                                        </verse>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-7-2" n="2">
+                                <layer xml:id="vocal-score-F1-layer-7-2-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-7-2-1-1" dur="2" oct="5" pname="c" stem.dir="up">
+                                        <accid xml:id="accid-000000032067711" accid="f"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-7-2-1-2" dots="2" dur="4" oct="5" pname="f" stem.dir="up">
+                                        <accid xml:id="accid-000000189955807" accid="f"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-7-2-1-3" dur="16" oct="5" pname="g" stem.dir="up">
+                                        <accid xml:id="accid-000000057972905" accid="f"/>
+                                    </note>
+                                </layer>
+                                <layer xml:id="vocal-score-F1-layer-7-2-2" n="2">
+                                    <note xml:id="vocal-score-F1-note-7-2-2-1" dur="2" oct="4" pname="f" accid="f" stem.dir="up"/>
+                                    <note xml:id="vocal-score-F1-note-7-2-2-2" dur="2" oct="4" pname="a" accid.ges="f" stem.dir="down"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-7-3" n="3">
+                                <layer xml:id="vocal-score-F1-layer-7-3-5" n="5">
+                                  <clef xml:id="clef-000000036096274" shape="F" line="4"/>
+                                    <note xml:id="vocal-score-F1-note-7-3-5-1" dur="2" oct="3" pname="a" accid.ges="f" stem.dir="down">
+                                        <artic xml:id="artic-000000057269956" artic="stacc"/>
+                                    </note>
+                                    <chord xml:id="vocal-score-F1-chord-7-3-5-1" dur="2" stem.dir="down">
+                                        <artic xml:id="artic-000000089370366" artic="stacc"/>
+                                        <note xml:id="vocal-score-F1-note-7-3-5-2" oct="3" pname="f">
+                                            <accid xml:id="accid-000000171919569" accid="f"/>
+                                        </note>
+                                        <note xml:id="vocal-score-F1-note-7-3-5-3" oct="4" pname="c">
+                                            <accid xml:id="accid-000000195784704" accid="f"/>
+                                        </note>
+                                    </chord>
+                                </layer>
+                            </staff>
+                            <dynam xml:id="dynam-000000088939364" place="below" staff="2" startid="#vocal-score-F1-note-7-2-1-1">pp</dynam>
+                            <slur xml:id="slur-000000184014944" startid="#vocal-score-F1-note-7-3-5-1" endid="#vocal-score-F1-chord-8-3-5-2"/>
+                        </measure>
+                        <measure xml:id="vocal-score-F1-measure-8" n="782">
+                            <staff xml:id="vocal-score-F1-staff-8-1" n="1">
+                                <layer xml:id="vocal-score-F1-layer-8-1-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-8-1-1-1" dur="2" oct="4" pname="e" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000090996834" n="1">
+                                            <syl xml:id="syl-000000171653387">Fahrt,</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-8-1-1-2" dur="8" oct="4" pname="e" accid.ges="f" stem.dir="down"/>
+                                    <note xml:id="vocal-score-F1-note-8-1-1-3" dur="8" oct="4" pname="d" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000185964715" n="1">
+                                            <syl xml:id="syl-000000157161839">noch</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-8-1-1-4" dur="8" oct="4" pname="c" stem.dir="down">
+                                        <accid xml:id="accid-000000009610297" accid="f"/>
+                                        <verse xml:id="verse-000000140091027" n="1">
+                                            <syl xml:id="syl-000000105555669">wie</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-8-1-1-5" dur="8" oct="4" pname="d" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000033655871" n="1">
+                                            <syl xml:id="syl-000000036541459">mein</syl>
+                                        </verse>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-8-2" n="2">
+                                <layer xml:id="vocal-score-F1-layer-8-2-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-8-2-1-1" dur="2" oct="5" pname="e" accid.ges="f" stem.dir="up"/>
+                                    <beam xml:id="beam-000000126228554">
+                                        <note xml:id="vocal-score-F1-note-8-2-1-2" dur="8" oct="5" pname="e" accid.ges="f" stem.dir="up"/>
+                                        <note xml:id="vocal-score-F1-note-8-2-1-3" dur="8" oct="5" pname="d" accid.ges="f" stem.dir="up">
+                                            <artic xml:id="artic-000000117274810" artic="stacc"/>
+                                        </note>
+                                        <note xml:id="vocal-score-F1-note-8-2-1-4" dur="8" oct="5" pname="c" stem.dir="up">
+                                            <accid xml:id="accid-000000040170801" accid="f"/>
+                                            <artic xml:id="artic-000000013912275" artic="stacc"/>
+                                        </note>
+                                        <note xml:id="vocal-score-F1-note-8-2-1-5" dur="8" oct="5" pname="d" accid.ges="f" stem.dir="up">
+                                            <artic xml:id="artic-000000109875302" artic="stacc"/>
+                                        </note>
+                                    </beam>
+                                </layer>
+                                <layer xml:id="vocal-score-F1-layer-8-2-2" n="2">
+                                    <note xml:id="vocal-score-F1-note-8-2-2-1" dur="2" oct="4" pname="g" stem.dir="down">
+                                        <accid xml:id="accid-000000109818939" accid="f"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-8-2-2-2" dur="2" oct="4" pname="f" stem.dir="down">
+                                        <accid xml:id="accid-000000011059348" accid="f"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-8-3" n="3">
+                                <layer xml:id="vocal-score-F1-layer-8-3-5" n="5">
+                                    <chord xml:id="vocal-score-F1-chord-8-3-5-1" dur="2" stem.dir="down">
+                                        <artic xml:id="artic-000000132365306" artic="stacc"/>
+                                        <note xml:id="vocal-score-F1-note-8-3-5-1" oct="3" pname="c">
+                                            <accid xml:id="accid-000000027433003" accid="f"/>
+                                        </note>
+                                        <note xml:id="vocal-score-F1-note-8-3-5-2" oct="4" pname="c">
+                                            <accid xml:id="accid-000000027986377" accid="f"/>
+                                        </note>
+                                    </chord>
+                                    <chord xml:id="vocal-score-F1-chord-8-3-5-2" dur="2" stem.dir="down">
+                                        <artic xml:id="artic-000000063777392" artic="stacc"/>
+                                        <note xml:id="vocal-score-F1-note-8-3-5-3" oct="3" pname="d" accid.ges="f"/>
+                                        <note xml:id="vocal-score-F1-note-8-3-5-4" oct="3" pname="a" accid.ges="f"/>
+                                    </chord>
+                                </layer>
+                            </staff>
+                            <tie xml:id="tie-000000130010427" startid="#vocal-score-F1-note-8-1-1-1" endid="#vocal-score-F1-note-8-1-1-2"/>
+                            <tie xml:id="tie-000000037289255" startid="#vocal-score-F1-note-8-2-1-1" endid="#vocal-score-F1-note-8-2-1-2"/>
+                            <slur xml:id="slur-000000174709588" startid="#vocal-score-F1-note-8-2-1-3" endid="#vocal-score-F1-note-8-2-1-5"/>
+                        </measure>
+                        <measure xml:id="vocal-score-F1-measure-9" n="783">
+                            <staff xml:id="vocal-score-F1-staff-9-1" n="1">
+                                <layer xml:id="vocal-score-F1-layer-9-1-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-9-1-1-1" dots="1" dur="2" oct="4" pname="e" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000062808724" n="1">
+                                            <syl xml:id="syl-000000165868655">Nam'</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-9-1-1-2" dur="4" oct="3" pname="b" accid.ges="f" stem.dir="down">
+                                        <verse xml:id="verse-000000112405408" n="1">
+                                            <syl xml:id="syl-000000056199711">und</syl>
+                                        </verse>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-9-2" n="2">
+                                <layer xml:id="vocal-score-F1-layer-9-2-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-9-2-1-1" dur="1" oct="5" pname="e" accid.ges="f"/>
+                                </layer>
+                                <layer xml:id="vocal-score-F1-layer-9-2-2" n="2">
+                                    <note xml:id="vocal-score-F1-note-9-2-2-1" dur="2" oct="4" pname="a" accid.ges="f" stem.dir="up"/>
+                                    <note xml:id="vocal-score-F1-note-9-2-2-2" dur="2" oct="4" pname="g" stem.dir="up">
+                                        <accid xml:id="accid-000000017912231" accid="n"/>
+                                    </note>
+                                </layer>
+                                <layer xml:id="vocal-score-F1-layer-9-2-3" n="3">
+                                    <note xml:id="vocal-score-F1-note-9-2-3-1" dur="1" oct="4" pname="e" accid.ges="f"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-9-3" n="3">
+                                <layer xml:id="vocal-score-F1-layer-9-3-5" n="5">
+                                    <note xml:id="vocal-score-F1-note-9-3-5-1" dur="2" oct="4" pname="c" stem.dir="up">
+                                        <accid xml:id="accid-000000096544969" accid="f"/>
+                                    </note>
+                                    <note xml:id="vocal-score-F1-note-9-3-5-2" dur="2" oct="3" pname="b" accid.ges="f" stem.dir="up"/>
+                                </layer>
+                                <layer xml:id="vocal-score-F1-layer-9-3-6" n="6">
+                                    <note xml:id="vocal-score-F1-note-9-3-6-1" dur="1" oct="3" pname="e" accid.ges="f"/>
+                                </layer>
+                            </staff>
+                            <slur xml:id="slur-000000127334200" startid="#vocal-score-F1-note-9-2-2-1" curvedir="above" endid="#vocal-score-F1-note-9-2-2-2"/>
+                            <slur xml:id="slur-000000062859464" startid="#vocal-score-F1-note-9-3-5-1" endid="#vocal-score-F1-note-9-3-5-2"/>
+                        </measure>
+                        <measure xml:id="vocal-score-F1-measure-10" n="784">
+                            <staff xml:id="vocal-score-F1-staff-10-1" n="1">
+                                <layer xml:id="vocal-score-F1-layer-10-1-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-10-1-1-1" dur="2" oct="4" pname="c" stem.dir="down">
+                                        <accid xml:id="accid-000000184414726" accid="n"/>
+                                        <verse xml:id="verse-000000059945693" n="1">
+                                            <syl xml:id="syl-000000084477422">Art!</syl>
+                                        </verse>
+                                    </note>
+                                    <!-- <clef xml:id="clef-000000151804108" shape="G" line="2"/> -->
+                                    <!-- <note xml:id="vocal-score-F1-note-10-1-1-2" dur="2" oct="5" pname="e" accid.ges="f" stem.dir="down"> -->
+                                    <!--     <verse xml:id="verse-000000135515070" n="1"> -->
+                                    <!--         <syl xml:id="syl-000000117365582">Nie,</syl> -->
+                                    <!--     </verse> -->
+                                    <!-- </note> -->
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-10-2" n="2">
+                                <layer xml:id="vocal-score-F1-layer-10-2-1" n="1">
+                                    <note xml:id="vocal-score-F1-note-10-2-1-1" dur="1" oct="5" pname="e" accid.ges="f"/>
+                                </layer>
+                                <layer xml:id="vocal-score-F1-layer-10-2-2" n="2">
+                                    <note xml:id="vocal-score-F1-note-10-2-2-1" dur="1" oct="4" pname="a" accid.ges="f"/>
+                                </layer>
+                                <layer xml:id="vocal-score-F1-layer-10-2-3" n="3">
+                                    <note xml:id="vocal-score-F1-note-10-2-3-1" dur="1" oct="4" pname="e" accid.ges="f"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="vocal-score-F1-staff-10-3" n="3">
+                                <layer xml:id="vocal-score-F1-layer-10-3-5" n="5">
+                                    <note xml:id="vocal-score-F1-note-10-3-5-1" dur="1" oct="4" pname="c">
+                                        <accid xml:id="accid-000000072427713" accid="n"/>
+                                    </note>
+                                </layer>
+                                <layer xml:id="vocal-score-F1-layer-10-3-6" n="6">
+                                    <note xml:id="vocal-score-F1-note-10-3-6-1" dur="1" oct="3" pname="a" accid.ges="f"/>
+                                </layer>
+                            </staff>
+                            <dynam xml:id="dynam-1000000088939364" place="below" staff="2" startid="#vocal-score-F1-note-10-2-3-1">pp</dynam>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
